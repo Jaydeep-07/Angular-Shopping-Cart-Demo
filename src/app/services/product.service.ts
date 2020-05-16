@@ -5,13 +5,13 @@ import { Product } from '../entities/product.entity';
 @Injectable()
 export class ProductService {
 
-    private products: Product[];
+    public products: Product[];
 
     constructor() {
         this.products = [
-            { id: 'p01', name: 'name 1', price: 100, photo: 'download (1).jfif' },
-            { id: 'p02', name: 'name 2', price: 200, photo: 'download (2).jfif' },
-            { id: 'p03', name: 'name 3', price: 300, photo: 'download (3).jfif' }
+            { id: 'p01', name: 'name 1', price: 100, photo: '../real5pro.jpg' },
+            { id: 'p02', name: 'name 2', price: 200, photo: '../Oppo A9.jpg' },
+            { id: 'p03', name: 'name 3', price: 300, photo: '../nokia4.jpg' }
         ];
     }
 
